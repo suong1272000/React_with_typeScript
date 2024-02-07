@@ -1,12 +1,11 @@
-import Box from "./components/atoms/Box";
-import Payment from "./components/atoms/Payment";
-import CardBox from "./components/molecules/CardBox";
+import Button from "./components/atoms/button/Button";
+import Payment from "./components/molecules/payment/Payment";
+import PaymentMethod from "./components/or/paymentMethod/PaymentMethod";
 
 function App() {
 	return (
 		<div className="App">
-			<Payment text="Payment"></Payment>
-			<CardBox />
+			<PaymentMethod />
 		</div>
 	);
 }
