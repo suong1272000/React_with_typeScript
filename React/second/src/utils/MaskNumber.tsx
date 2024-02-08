@@ -1,3 +1,2 @@
-export const MaskNumber = (num: string) => {
-	return 1;
-};
+export const maskNumber = (num: string) =>
+	"*".repeat(num.length - 4) + num.slice(-4);

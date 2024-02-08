@@ -1,12 +1,13 @@
 import { CSSProperties } from "react";
-import Label, { LabelProps } from "../../atoms/Label/Label";
+import { LabelProps } from "../../atoms/Label/Label";
 import Icon, { IconProps } from "../../icon/Icon";
+import LabelWithMask from "../../atoms/Label/LabelWithMask";
 
 export type PaymentProps = {
 	icon: IconProps;
 	label: LabelProps;
 };
-type PaymentActionProps = {
+export type PaymentActionProps = {
 	num: number;
 	isSelect: boolean;
 	action: (num: number) => void;
@@ -32,7 +33,7 @@ const Payment = ({
 	return (
 		<div onClick={() => action(num)} style={paymentStyle}>
 			<Icon {...icon} />
-			<Label {...label} />
+			<LabelWithMask {...label} />
 		</div>
 	);
 };
