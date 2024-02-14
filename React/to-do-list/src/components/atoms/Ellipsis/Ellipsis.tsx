@@ -1,8 +1,8 @@
 import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { EllipsisStyle } from "../../../styles/Icons/Ellipsis.style";
 
 const Ellipsis = () => {
-	return <FontAwesomeIcon icon={faEllipsis} />;
+	return <EllipsisStyle icon={faEllipsis} />;
 };
 
 export default Ellipsis;

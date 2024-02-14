@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const CheckBoxStyle = styled.div`
+export const CheckBoxStyle = styled(FontAwesomeIcon)`
+	color: white;
 	width: 24px;
 	height: 24px;
-	border-radius: 50px;
-	background-color: white;
-	border: 1px solid gray;
+	border-radius: 24px;
 `;

@@ -1,7 +1,7 @@
 import { List } from "./Sentence.style";
 
 type SentenceProps = {
-	content: string;
+	content?: string;
 };
 
 const Sentence = ({ content }: SentenceProps) => {
