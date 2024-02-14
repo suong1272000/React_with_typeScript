@@ -1,5 +1,9 @@
 import styled from "@emotion/styled";
 
+export type WrapCheckBoxProps = {
+	isClicked: boolean;
+};
+
 export const WrapCheckBox = styled.div`
 	width: 36px;
 	height: 36px;
