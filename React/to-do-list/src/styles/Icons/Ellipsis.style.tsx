@@ -3,5 +3,5 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const EllipsisStyle = styled(FontAwesomeIcon)`
 	font-size: 36px;
-	color: gray;
+	color: #e6e6e6;
 `;
