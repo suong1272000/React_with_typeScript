@@ -5,5 +5,4 @@ export const CheckBoxStyle = styled(FontAwesomeIcon)`
 	color: white;
 	width: 24px;
 	height: 24px;
-	border-radius: 24px;
 `;

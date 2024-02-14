@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const WrapBox = styled.div`
+export const WrapCheckBox = styled.div`
 	width: 36px;
 	height: 36px;
 	border-radius: 24px;

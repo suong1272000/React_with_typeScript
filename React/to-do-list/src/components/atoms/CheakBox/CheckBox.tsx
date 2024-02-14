@@ -1,12 +1,12 @@
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { CheckBoxStyle } from "./CheckBox.style";
-import { WrapBox } from "../../../styles/WrapBox";
+import { CheckBoxStyle } from "../../../styles/Icons/CheckBox.style";
+import { WrapCheckBox } from "../../../styles/Icons/WrapCheckBox";
 
 const CheckBox = () => {
 	return (
-		<WrapBox>
+		<WrapCheckBox>
 			<CheckBoxStyle icon={faCheck} />
-		</WrapBox>
+		</WrapCheckBox>
 	);
 };
 
