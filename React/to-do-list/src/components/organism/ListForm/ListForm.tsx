@@ -1,6 +1,6 @@
 import Label from "../../atoms/Label/Label";
-import { ButtonBox } from "../../molecules/ButtonBox/ButtonBox";
-import { ListBoxBundleCollection } from "../../molecules/ListBox/ListBoxBundleCollection";
+import ButtonBox from "../../molecules/ButtonBox/ButtonBox";
+import ListBoxBundleCollection from "../../molecules/ListBox/ListBoxBundleCollection";
 import { ListFormStyle } from "./ListForm.style";
 
 const ListForm = () => {

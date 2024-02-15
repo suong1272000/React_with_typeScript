@@ -1,10 +1,20 @@
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { CheckBoxStyle } from "../../../styles/Icons/CheckBox.style";
-import { WrapCheckBox } from "../../../styles/Icons/WrapCheckBox";
+import {
+	WrapCheckBox,
+	linkedCheckTextProps,
+} from "../../../styles/Icons/WrapCheckBox";
 
-const CheckBox = () => {
+export type CheckBoxActionProps = {
+	action?: () => void;
+};
+
+const CheckBox = ({
+	action,
+	isSelect,
+}: CheckBoxActionProps & linkedCheckTextProps) => {
 	return (
-		<WrapCheckBox>
+		<WrapCheckBox onClick={action} isSelect={isSelect}>
 			<CheckBoxStyle icon={faCheck} />
 		</WrapCheckBox>
 	);
