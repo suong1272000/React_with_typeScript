@@ -8,7 +8,6 @@ const ListForm = () => {
 		<ListFormStyle>
 			<Label content="Todo" />
 			<ListBoxBundleCollection />
-			<ButtonBox />
 		</ListFormStyle>
 	);
 };

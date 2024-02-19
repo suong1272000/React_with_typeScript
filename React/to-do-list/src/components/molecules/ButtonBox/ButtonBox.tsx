@@ -1,9 +1,13 @@
 import { SquareBox } from "../../../styles/SquareBox";
 import ButtonLabel from "../../atoms/Label/ButtonLabel";
 
-const ButtonBox = () => {
+type ButtonBoxProps = {
+	action: () => void;
+};
+
+const ButtonBox = ({ action }: ButtonBoxProps) => {
 	return (
-		<SquareBox>
+		<SquareBox onClick={action}>
 			<ButtonLabel content="Add Todo" />
 		</SquareBox>
 	);
